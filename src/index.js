@@ -75,8 +75,14 @@ window.addEventListener('load', event => {
   })
   
   //Menu
-    btnMenu.addEventListener('click', menu, false);
+    btnMenu.addEventListener('click', event => {
+        container.innerHTML = '';
+        container.appendChild(menu());
+    });
     
     //Reservation
-    btnRes.addEventListener('click', reservation, false);
+    btnRes.addEventListener('click', event => {
+        container.innerHTML = '';
+        container.appendChild(reservation());
+    })
   })

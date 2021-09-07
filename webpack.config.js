@@ -6,6 +6,7 @@ module.exports = {
     menu: './src/menu.js',
     reservation: './src/reservation.js'
   },
+  devtool: 'inline-source-map',
   output: {
     filename: '[name].bundle.js',
     path: path.resolve(__dirname, 'dist'),

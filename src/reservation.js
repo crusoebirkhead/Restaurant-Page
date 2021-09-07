@@ -1,7 +1,5 @@
 function reservation(){
-    container.innerHTML = '';
     const res = document.createElement('div')
-    container.appendChild(res)
     res.id = 'reservation'
   
     const form = document.createElement('form')
@@ -28,6 +26,8 @@ function reservation(){
     form.appendChild(last)
     form.appendChild(dateLabel)
     form.appendChild(date)
+
+    return res
 }
 
-export {reservation}
+export default reservation
