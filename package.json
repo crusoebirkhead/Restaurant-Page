@@ -1,0 +1,30 @@
+{
+  "name": "restaurant-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crusoebirkhead/Restaurant-Page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crusoebirkhead/Restaurant-Page/issues"
+  },
+  "homepage": "https://github.com/crusoebirkhead/Restaurant-Page#readme",
+  "devDependencies": {
+    "cli": "^1.0.1",
+    "css-loader": "^6.2.0",
+    "style-loader": "^3.2.1",
+    "webpack": "^5.52.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}

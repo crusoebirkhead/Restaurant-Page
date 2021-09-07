@@ -1,0 +1,66 @@
+#navbar {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: #424547;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    padding: 0 500px 0 500px;
+  }
+  
+  #title {
+    color: white;
+  }
+  
+  #sushi {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+  }
+  
+  #home {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  #menu {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  #descrip {
+    width: 40%;
+    margin: 0 auto;
+  }
+  form {
+    text-align: center;
+    margin-top: 40px;
+  }
+  button {
+    -webkit-appearance: none;
+      -moz-appearance: none;
+      border: none;
+      background-color: #424547;
+      color: white;
+  }
+  
+  button:hover {
+    color: red;
+  }
+  
+  body {
+    margin: 0%;
+  }
+  
+  footer {
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: #424547;
+      color: white;
+      text-align: center;
+      font-size: 10px;
+  }
+  
